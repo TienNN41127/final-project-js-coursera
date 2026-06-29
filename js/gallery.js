@@ -1,4 +1,3 @@
-/*Name this external file gallery.js*/
 function upDate(previewPic){
 	console.log(previewPic.alt, previewPic.src);
 	document.getElementById('image').style.backgroundImage = "url('" + previewPic.src + "')";
